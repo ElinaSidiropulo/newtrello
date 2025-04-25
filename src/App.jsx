@@ -11,7 +11,7 @@ function App() {
     active:0,
     boards:[
       {
-        name:'My Trello Board',
+        name:'Trello Board',
         bgcolor:'#069',
         list:[
           {id:"1",title:"To do",items:[{id:"cdrFt",title:"Project Description 1"}]},
