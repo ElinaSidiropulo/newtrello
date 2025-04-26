@@ -208,7 +208,7 @@ const Main = () => {
                                             )}
                                             <div className="flex gap-1">
                                                 <button
-                                                    className="hover:bg-gray-500 p-1 rounded-sm"
+                                                    className="hover:bg-[#D4C17C] p-1 rounded-sm"
                                                     onClick={() => deleteList(ind)}
                                                     title="Delete list"
                                                 >
@@ -280,13 +280,13 @@ const Main = () => {
                                                                                         setEditTitle(item.title);
                                                                                         setEditTags(item.tags.join(', '));
                                                                                     }}
-                                                                                    className="hover:bg-gray-600 p-1 rounded-sm"
+                                                                                    className="hover:bg-red-200 p-1 rounded-sm"
                                                                                 >
                                                                                     <Edit2 size={16} />
                                                                                 </button>
                                                                                 <button
                                                                                     onClick={() => deleteCard(ind, index)}
-                                                                                    className="hover:bg-red-100 p-1 rounded-sm text-red-400"
+                                                                                    className="hover:bg-red-200 p-1 rounded-sm text-red-400"
                                                                                 >
                                                                                     ✕
                                                                                 </button>

@@ -126,7 +126,7 @@ const Sidebar = () => {
 
                     <ul>
                         {allboard?.boards?.map((board, index) => (
-                            <li key={board.id} className="group flex justify-between items-center px-3 hover:bg-gray-500">
+                            <li key={board.id} className="group flex justify-between items-center px-3 hover:bg-[#9B794D]">
                                 <button
                                     onClick={() => setActiveBoard(index)}
                                     className='py-2 text-sm flex-grow flex items-center text-left'
