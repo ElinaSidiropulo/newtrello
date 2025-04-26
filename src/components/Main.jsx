@@ -193,7 +193,7 @@ const Main = () => {
                                                         }
                                                     }}
                                                     autoFocus
-                                                    className="bg-zinc-800 text-white border border-zinc-600 p-1 rounded w-full"
+                                                    className="bg-brown-300 text-white border border-zinc-600 p-1 rounded w-full"
                                                 />
                                             ) : (
                                                 <span
